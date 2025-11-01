@@ -25,7 +25,7 @@ Dengan demikian, program hanya menghitung dan menampilkan angka yang < 0.5, dan 
    print("Selesai")
 Setelah count mencapai N, perulangan berhenti dan program menampilkan pesan penutup "Selesai".
 
-MEMBUAT MODAL LABA PERULANGAN
+#MEMBUAT MODAL LABA PERULANGAN
 1. Inisialisasi modal awal
    modal_awal = 100_000_000
 Modal awal ditetapkan sebesar Rp 100.000.000.
@@ -58,7 +58,7 @@ Modal awal ditetapkan sebesar Rp 100.000.000.
 7. Menampilkan Total Laba Setelah 8 Bulan
    print(f"\nTotal laba selama 8 bulan = Rp {total_laba:,.0f}")
 
-MEMBUAT ATM VISUAL DALAM BENTUK CODING
+#MEMBUAT ATM VISUAL DALAM BENTUK CODING
 1. Inisialisasi saldo
    saldo = 1000000
    Variabel saldo menyimpan jumlah uang awal (dalam satuan rupiah) yang tersedia di "rekening" pengguna.
