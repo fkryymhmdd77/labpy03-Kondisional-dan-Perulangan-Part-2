@@ -1,0 +1,26 @@
+# Modal awal
+modal_awal = 100_000_000
+
+# Inisialisasi variabel
+total_laba = 0
+
+# Perhitungan laba per bulan
+for bulan in range(1, 9):
+    # Menentukan persentase laba per bulan
+    if bulan <= 2:
+        laba_persen = 0  # Bulan 1-2: tidak ada laba
+    elif bulan <= 4:
+        laba_persen = 1  # Bulan 3-4: laba 1%
+    elif bulan <= 7:
+        laba_persen = 5  # Bulan 5-7: laba 5%
+    else:
+        laba_persen = 2  # Bulan 8: laba 2% (turun 3% dari 5%)
+
+    # Hitung laba bulan ini
+    laba_bulan_ini = modal_awal * (laba_persen / 100)
+    total_laba += laba_bulan_ini
+
+    # Tampilkan informasi per bulan
+    print(f"laba bulan ke- {bulan} sebesar: {int(laba_bulan_ini)}")
+
+print(f"Total laba adalah: {int(total_laba)}")
