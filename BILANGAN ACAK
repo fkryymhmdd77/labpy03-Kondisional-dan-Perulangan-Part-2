@@ -1,0 +1,15 @@
+from random import random
+
+# Meminta input n dari user
+n = int(input("Masukkan nilai N: "))
+
+# Menampilkan n bilangan acak yang lebih kecil dari 0.5
+count = 0
+
+while count < n:
+    angka = random()
+    if angka < 0.5:
+        count += 1
+        print(f"data ke: {count} => {angka}")
+
+print("Selesai")
