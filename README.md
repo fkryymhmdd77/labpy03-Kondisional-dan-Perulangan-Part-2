@@ -1,3 +1,4 @@
+# Tugas P7 Praktikum 3
 # labpy03
 Program ini ditulis menggunakan bahasa Python dan bertujuan untuk menampilkan sejumlah bilangan acak (random) yang lebih kecil dari 0.5.
 Program akan meminta pengguna untuk memasukkan sebuah nilai integer N, lalu akan menghasilkan N bilangan acak di bawah 0.5, sekaligus menampilkannya di layar.
